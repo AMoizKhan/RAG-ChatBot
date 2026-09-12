@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+.pip_cache/
+
+# Environment variables & secrets (CRITICAL: Do not commit API keys)
+.env
+*.env
+!.env.example
+
+# Node / Frontend dependencies & build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# ChromaDB local storage & database files
+backend/chroma_db/
+chroma_db/
+
+# IDE & OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+temp/
